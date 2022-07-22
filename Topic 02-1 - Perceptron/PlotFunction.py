@@ -42,7 +42,7 @@ def plot_decision_surface_train_test(X_train, X_test, y_train, y_test, clf, file
 
     # setup
     resolution = 0.02
-    markers = ("s", "x", "o", "^", "v")
+    markers = ("s", "^", "o", "v", "x")
     linestyles = (":", "--", "-.")
 
     X = X_train
@@ -197,7 +197,7 @@ def plot_decision_surface_predict(X_train, y_train, clf, filename=""):
 
     # setup
     resolution = 0.02
-    markers = ("s", "x", "o", "^", "v")
+    markers = ("s", "^", "o", "v", "x")
     linestyles = (":", "--", "-.")
 
     X = X_train
